@@ -280,8 +280,11 @@ class TicketToRide extends React.Component {
     </div>
     {/*Q4. Code to call the component that adds a traveller.*/}
 
+    <div id='deleteDiv' hidden={this.state.selector !== 4}>
+      <Delete deleteTraveller={this.deleteTraveller}/>
+    </div>
+    {/*Q5. Code to call the component that deletes a traveller based on a given attribute.*/}
 
-    
 	</div>
       </div>
     );
