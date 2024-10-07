@@ -265,6 +265,11 @@ class TicketToRide extends React.Component {
 	<div>
 		{/*Only one of the below four divisions is rendered based on the button clicked by the user.*/}
 
+    <div id='homepageDiv' hidden={this.state.selector !== 1}>
+      <Homepage passengers={this.state.travellers}/>
+    </div>
+    {/*Q2 and Q6. Code to call Instance that draws Homepage. Homepage shows Visual Representation of free seats.*/}
+
     
 	</div>
       </div>
