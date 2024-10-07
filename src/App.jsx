@@ -270,6 +270,12 @@ class TicketToRide extends React.Component {
     </div>
     {/*Q2 and Q6. Code to call Instance that draws Homepage. Homepage shows Visual Representation of free seats.*/}
 
+    <div id='displayDiv' hidden={this.state.selector !== 2}>
+      <Display passengers={this.state.travellers}/>
+    </div>
+    {/*Q3. Code to call component that Displays Travellers.*/}
+
+
     
 	</div>
       </div>
