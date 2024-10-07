@@ -275,6 +275,11 @@ class TicketToRide extends React.Component {
     </div>
     {/*Q3. Code to call component that Displays Travellers.*/}
 
+    <div id='addDiv' hidden={this.state.selector !== 3}>
+      <Add bookTraveller={this.bookTraveller}/>
+    </div>
+    {/*Q4. Code to call the component that adds a traveller.*/}
+
 
     
 	</div>
