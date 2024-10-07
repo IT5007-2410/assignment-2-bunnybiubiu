@@ -265,25 +265,7 @@ class TicketToRide extends React.Component {
 	<div>
 		{/*Only one of the below four divisions is rendered based on the button clicked by the user.*/}
 
-    <div id='homepageDiv' hidden={this.state.selector !== 1}>
-      <Homepage passengers={this.state.travellers}/>
-    </div>
-    {/*Q2 and Q6. Code to call Instance that draws Homepage. Homepage shows Visual Representation of free seats.*/}
-		
-    <div id='displayDiv' hidden={this.state.selector !== 2}>
-      <Display passengers={this.state.travellers}/>
-    </div>
-      {/*Q3. Code to call component that Displays Travellers.*/}
-		
-		<div id='addDiv' hidden={this.state.selector !== 3}>
-      <Add bookTraveller={this.bookTraveller}/>
-    </div>
-    {/*Q4. Code to call the component that adds a traveller.*/}
-		
-    <div id='deleteDiv' hidden={this.state.selector !== 4}>
-      <Delete deleteTraveller={this.deleteTraveller}/>
-    </div>
-    {/*Q5. Code to call the component that deletes a traveller based on a given attribute.*/}
+    
 	</div>
       </div>
     );
